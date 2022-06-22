@@ -1,0 +1,25 @@
+.box {
+    padding: 50px;
+}
+.box h2{
+    margin: 20px 0 20px 0;
+}
+.box p {
+    letter-spacing:2px ;
+    transform: 0.5s;
+}
+.box i {
+    font-size: 30px;
+    margin-top: 20px;
+    transition:0.5s;
+    opacity: 0;
+   
+}
+
+.box:hover p {
+    color: black;
+}
+.box:hover i {
+     opacity: 1;
+     color: white;
+}
